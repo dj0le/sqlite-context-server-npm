@@ -1,0 +1,25 @@
+{
+  "name": "@djowea/sqlite-context-server",
+  "version": "0.1.2",
+  "description": "a model context protocol server for SQLite",
+  "main": "index.mjs",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "vendor",
+    "index.mjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dj0le/sqlite-context-server.git"
+  },
+  "author": "Djo Wea",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.23.8"
+  }
+}
